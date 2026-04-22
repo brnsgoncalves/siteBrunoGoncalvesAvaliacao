@@ -1,0 +1,87 @@
+body{
+    font-family: sans-serif;
+    font-size: large;
+    background-color: #fff;
+    display: flex;
+    width: 80%;
+    height: 80%;
+    flex-direction: row;
+}
+
+header{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    max-height: 10px;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    gap: 380px;
+    width: 75%;
+    font-size: x-large;
+}
+
+a{
+    text-decoration: none;
+}
+
+figure{
+    display: flex;
+}
+
+.logoNavBar{
+    width: 150px;
+    height: 150px;
+}
+
+main{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+section{
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+}
+
+article{
+    width: 60%;
+}
+
+.kratos{
+    width: 600px;
+    height: 600px;
+}
+
+.team{
+    display: flex;
+    flex-direction: row
+}
+
+.studio{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 600px;
+}
+
+.certified{
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    height: 10%;
+}
+
+aside{
+    float: right;
+    display: flex;
+    text-align: right;
+    margin-left: 100%;
+    
+}
